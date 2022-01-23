@@ -6,7 +6,13 @@ namespace lesson1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Field field = new Field();
+            Player player = new Player();
+            field.SetField();
+            field.GetField();
+            Game game = new Game(field,player);
+            game.GetPosition();
+            field.GetField();
         }
     }
 }
