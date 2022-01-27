@@ -8,7 +8,7 @@ namespace DZ1
     {
         public ExcelentPupil()
         {
-            Name = "артем Харкевич";
+            Name = "Артем Харкевич";
         }
         public override void Study()
         {         
