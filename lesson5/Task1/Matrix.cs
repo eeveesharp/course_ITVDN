@@ -115,7 +115,7 @@ namespace Task1
 
             for (int i = 0; i < mass.Length; i++)
             {
-                if (!(mass[i] % 2 == 0))
+                if (mass[i] % 2 != 0)
                 {
                     unevenElements.Add(mass[i]);
                 }
